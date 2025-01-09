@@ -1,0 +1,45 @@
+{
+    "name": "web-random-utils",
+    "version": "1.0.1",
+    "private": false,
+    "type": "module",
+    "main": "dist/index.cjs",
+    "module": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "files": [
+        "dist/*"
+    ],
+    "scripts": {
+        "dev": "tsup --watch",
+        "format": "npx prettier --write \"src/**/*.ts\""
+    },
+    "keywords": [
+        "web",
+        "faker",
+        "mock",
+        "random",
+        "random-utils",
+        "fake-data"
+    ],
+    "author": "lonewolfyx",
+    "license": "ISC",
+    "description": "Generate massive amounts of fake contextual data",
+    "homepage": "https://github.com/lonewolfyx/web-random-utils",
+    "bugs": {
+        "url": "https://github.com/lonewolfyx/web-random-utils/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/lonewolfyx/web-random-utils.git"
+    },
+    "devDependencies": {
+        "prettier": "3.4.2",
+        "tsup": "^8.3.5",
+        "typescript": "^5.7.3",
+        "vitest": "^2.1.8"
+    },
+    "engines": {
+        "node": ">=18.0.0",
+        "npm": ">=9.0.0"
+    }
+}
