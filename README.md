@@ -19,4 +19,8 @@ randomPassword() // u^u;4#9%Kw8{q[cF
 randomPassword(12, 'low') //WHnocjIPgrBzRJdQ
 randomPassword(12, 'medium') //aItjlvn1mIVm0PLz
 randomPassword(12, 'strong') //+3Mm9EP<zJGNTu/Y
+
+generateUuid() // 8837e72c-9638-4b1e-a86d-a07637f30748
+
+generateGender() // 男
 ```

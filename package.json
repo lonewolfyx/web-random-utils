@@ -1,6 +1,6 @@
 {
     "name": "web-random-utils",
-    "version": "0.1.2",
+    "version": "1.0.3",
     "private": false,
     "type": "module",
     "main": "dist/index.cjs",
@@ -11,8 +11,8 @@
     ],
     "scripts": {
         "dev": "tsup --watch",
-        "format": "npx prettier --write \"src/**/*.ts\"",
-        "publish": "./script/publish.sh"
+        "build": "./script/build.sh",
+        "format": "npx prettier --write \"src/**/*.ts\""
     },
     "keywords": [
         "web",
